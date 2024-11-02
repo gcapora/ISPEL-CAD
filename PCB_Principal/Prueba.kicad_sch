@@ -1126,7 +1126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06d121e6-33f9-46d9-b137-2e4f835f7761")
-		(property "Reference" "R103"
+		(property "Reference" "R304"
 			(at 179.07 93.218 90)
 			(effects
 				(font
@@ -1178,7 +1178,7 @@
 		(instances
 			(project "LabUNDAVGuillermo"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "R103")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -1193,7 +1193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e13a6c9-4986-4716-afc4-5555e303c656")
-		(property "Reference" "R102"
+		(property "Reference" "R301"
 			(at 132.588 77.47 90)
 			(effects
 				(font
@@ -1245,7 +1245,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "R102")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -1260,7 +1260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1110da0a-2f13-4e06-b4a8-dae53a3766f6")
-		(property "Reference" "R104"
+		(property "Reference" "R305"
 			(at 179.07 101.346 90)
 			(effects
 				(font
@@ -1312,7 +1312,7 @@
 		(instances
 			(project "LabUNDAVGuillermo"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "R104")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -1328,7 +1328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49d292db-a12d-42f9-95b1-ee6a6fcae0af")
-		(property "Reference" "C101"
+		(property "Reference" "C301"
 			(at 160.02 76.1999 0)
 			(effects
 				(font
@@ -1382,7 +1382,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "C101")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -1398,7 +1398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ff22a0-ad91-439c-818f-68e6ccd38fb6")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0302"
 			(at 151.13 114.3 0)
 			(effects
 				(font
@@ -1449,7 +1449,7 @@
 		(instances
 			(project "LabUNDAVGuillermo"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "#PWR0101")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -1464,7 +1464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5814bd2d-16a7-4cff-8a68-9fb0d6a5a74e")
-		(property "Reference" "R101"
+		(property "Reference" "R302"
 			(at 132.588 107.95 90)
 			(effects
 				(font
@@ -1516,7 +1516,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "R101")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -1531,7 +1531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74758b8c-0384-468e-9061-a9febd4a82f3")
-		(property "Reference" "U101"
+		(property "Reference" "U301"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -1601,7 +1601,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "U101")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -1616,7 +1616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "796a139d-443f-40fd-80ce-a1af7d1c3eaf")
-		(property "Reference" "R105"
+		(property "Reference" "R303"
 			(at 138.938 77.47 90)
 			(effects
 				(font
@@ -1668,7 +1668,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "R105")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -1684,7 +1684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ed45c9d-0a49-4365-828a-a758a36acbd0")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0301"
 			(at 134.62 119.38 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "#PWR0103")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -1751,7 +1751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee8b4052-d0d2-4bef-87b0-7049375f7174")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0303"
 			(at 156.21 87.63 0)
 			(effects
 				(font
@@ -1802,7 +1802,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "#PWR0102")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -1817,7 +1817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1a85bd5-2cba-484a-ac77-3f785980f515")
-		(property "Reference" "F101"
+		(property "Reference" "F301"
 			(at 189.23 92.71 90)
 			(effects
 				(font
@@ -1869,7 +1869,7 @@
 		(instances
 			(project "LabUNDAVGuillermo"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/628bb6be-caa2-411c-826f-32d9289a60ba"
-					(reference "F101")
+					(reference "F301")
 					(unit 1)
 				)
 			)

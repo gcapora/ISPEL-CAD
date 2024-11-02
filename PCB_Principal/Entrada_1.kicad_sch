@@ -1945,7 +1945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03589974-00d2-4c2d-869c-72b06b04bf48")
-		(property "Reference" "R21"
+		(property "Reference" "R101"
 			(at 91.44 89.408 90)
 			(effects
 				(font
@@ -1997,7 +1997,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R21")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -2012,7 +2012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07fb7796-be42-4bdf-894f-763748fd1fe8")
-		(property "Reference" "RV21"
+		(property "Reference" "RV101"
 			(at 143.51 106.68 90)
 			(effects
 				(font
@@ -2067,7 +2067,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "RV21")
+					(reference "RV101")
 					(unit 1)
 				)
 			)
@@ -2083,7 +2083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f231206-f17a-470f-8d9b-91bc7698a524")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0107"
 			(at 208.28 113.03 0)
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR027")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "213def83-e9e1-4fd0-9dcc-09315f9bf422")
-		(property "Reference" "R28"
+		(property "Reference" "R108"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R28")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -2219,7 +2219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36ac9027-5530-4434-929c-532a813a29c0")
-		(property "Reference" "D22"
+		(property "Reference" "D102"
 			(at 100.33 109.2199 90)
 			(effects
 				(font
@@ -2291,7 +2291,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "D22")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -2307,7 +2307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39148bdf-3d60-49be-b081-0e52d7bd6eff")
-		(property "Reference" "D21"
+		(property "Reference" "D101"
 			(at 100.33 71.1199 90)
 			(effects
 				(font
@@ -2379,7 +2379,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "D21")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f11a3b4-228d-4cbe-a5f2-06ea967ad166")
-		(property "Reference" "C25"
+		(property "Reference" "C105"
 			(at 217.17 73.66 90)
 			(effects
 				(font
@@ -2447,7 +2447,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "C25")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -2462,7 +2462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "424a2613-6121-42b6-b163-f8dbfdc46165")
-		(property "Reference" "C24"
+		(property "Reference" "C104"
 			(at 146.05 125.222 90)
 			(effects
 				(font
@@ -2514,7 +2514,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "C24")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -2529,7 +2529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42d6453f-4a28-4edb-a690-cc55fa281d8e")
-		(property "Reference" "R25"
+		(property "Reference" "R105"
 			(at 195.58 86.36 0)
 			(effects
 				(font
@@ -2583,7 +2583,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R25")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -2598,7 +2598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bfb1733-45cc-4342-993f-96acd5430e16")
-		(property "Reference" "R22"
+		(property "Reference" "R102"
 			(at 104.14 89.408 90)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R22")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -2666,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c6ad542-cc2e-4f4c-b5fc-eb21ec788728")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0105"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR026")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2733,7 +2733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "507174b8-cda9-4acd-a17a-3a3fdc0ff72f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0108"
 			(at 222.25 90.17 0)
 			(effects
 				(font
@@ -2784,7 +2784,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR028")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -2800,7 +2800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "681910cd-9c9d-403f-a8cb-bc96cb7b48b4")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0104"
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -2851,7 +2851,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR025")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2867,7 +2867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f789061-00c2-4c6a-8441-e704e2110669")
-		(property "Reference" "C21"
+		(property "Reference" "C101"
 			(at 87.63 96.5262 0)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "C21")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -2936,7 +2936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fdcd864-3e53-4bb6-bdf9-31f8f5b2a817")
-		(property "Reference" "R24"
+		(property "Reference" "R104"
 			(at 185.42 91.948 90)
 			(effects
 				(font
@@ -2988,7 +2988,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R24")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80ca20d3-657d-408f-8e31-05bca60e1c63")
-		(property "Reference" "U21"
+		(property "Reference" "U101"
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -3019,7 +3019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -3073,7 +3073,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "U21")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae8e18d9-faf1-4b3a-a0da-62812fb9ccc9")
-		(property "Reference" "R27"
+		(property "Reference" "R107"
 			(at 209.55 86.36 0)
 			(effects
 				(font
@@ -3142,7 +3142,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R27")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -3158,7 +3158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8b1f76a-9fb8-4987-b2b7-8a9622d34dcc")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0102"
 			(at 110.49 110.49 0)
 			(effects
 				(font
@@ -3209,7 +3209,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR023")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3225,7 +3225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b97ba30d-19ab-4a64-b5d6-e32044b9719b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0101"
 			(at 85.09 110.49 0)
 			(effects
 				(font
@@ -3276,7 +3276,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR022")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3291,7 +3291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2fb723e-ad73-40c9-8b0d-463c47374f56")
-		(property "Reference" "R23"
+		(property "Reference" "R103"
 			(at 111.76 99.06 0)
 			(effects
 				(font
@@ -3345,7 +3345,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R23")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -3360,7 +3360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb32e325-75d3-4e28-b2f4-e2a06e2f58ef")
-		(property "Reference" "R26"
+		(property "Reference" "R106"
 			(at 201.93 91.948 90)
 			(effects
 				(font
@@ -3412,7 +3412,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "R26")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -3428,7 +3428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc3bef9f-34e5-4228-832d-70aeea2c3d2f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0103"
 			(at 143.51 119.38 0)
 			(effects
 				(font
@@ -3479,7 +3479,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR024")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3495,7 +3495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e606bc69-78b1-47a5-a40d-9c10e8bba785")
-		(property "Reference" "C23"
+		(property "Reference" "C103"
 			(at 146.05 60.96 90)
 			(effects
 				(font
@@ -3547,7 +3547,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "C23")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -3563,7 +3563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5613eae-b7c9-44b5-8781-f444ed399842")
-		(property "Reference" "C22"
+		(property "Reference" "C102"
 			(at 91.4463 78.74 90)
 			(effects
 				(font
@@ -3615,7 +3615,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "C22")
+					(reference "C102")
 					(unit 1)
 				)
 			)

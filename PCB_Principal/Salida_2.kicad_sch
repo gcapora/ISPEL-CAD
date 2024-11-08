@@ -2278,6 +2278,12 @@
 		(uuid "8185e285-08dd-46f6-bfae-92c7d65e7cc0")
 	)
 	(junction
+		(at 74.93 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f3af3c-95ba-42b4-a1bf-188efd0a7aad")
+	)
+	(junction
 		(at 129.54 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2669,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 99.06) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e12936-313a-4b9e-9a98-45253c8c273e")
+	)
+	(wire
+		(pts
 			(xy 74.93 66.04) (xy 77.47 66.04)
 		)
 		(stroke
@@ -2806,6 +2822,16 @@
 			(type default)
 		)
 		(uuid "5821b2f5-a9e2-4a5b-bf2b-49dc06af5885")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588ef453-65a2-4b46-b4fd-01a85e676786")
 	)
 	(wire
 		(pts
@@ -3289,7 +3315,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 74.93 107.95)
+			(xy 81.28 96.52) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45371dd-879b-4bbc-92da-c6929aad6c11")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 74.93 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4405,73 +4441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "199a23b6-b3dc-45d5-b3f5-a08ef90ee98b")
-		(property "Reference" "#PWR0254"
-			(at 81.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64edce5d-e306-42f0-bf59-6a17cb5a71d4")
-		)
-		(instances
-			(project "ISPEL-CAD_v1"
-				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/1daac50b-8155-4482-83b0-91b256970459"
-					(reference "#PWR0254")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 45.72 58.42 0)
 		(unit 1)
@@ -5364,7 +5333,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 81.28 92.71 270)
+		(at 81.28 92.71 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5372,7 +5342,7 @@
 		(dnp no)
 		(uuid "586132a9-53d3-4b2e-99d4-9e43b5d5a84e")
 		(property "Reference" "RV251"
-			(at 86.36 95.25 90)
+			(at 84.836 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5350,7 @@
 			)
 		)
 		(property "Value" "Evm3eSX50b102"
-			(at 86.36 100.33 90)
+			(at 89.916 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)

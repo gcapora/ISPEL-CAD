@@ -1072,6 +1072,12 @@
 		(uuid "3bc42879-c9c1-4aa2-9b35-a1255e04d600")
 	)
 	(junction
+		(at 137.16 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b8986f2-16f0-4f6a-8347-745166f239f3")
+	)
+	(junction
 		(at 137.16 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1301,7 +1307,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 137.16 119.38)
+			(xy 137.16 115.57) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc5c31c-d5dc-42ab-8f4e-bf8fbe04af91")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 137.16 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1491,6 +1507,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 115.57) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58d2aee-f514-45e3-abeb-ef2601e82fd1")
+	)
+	(wire
+		(pts
 			(xy 208.28 93.98) (xy 208.28 96.52)
 		)
 		(stroke
@@ -1568,6 +1594,16 @@
 			(type default)
 		)
 		(uuid "d47aa2b7-c714-43be-a3b1-91db89820002")
+	)
+	(wire
+		(pts
+			(xy 143.51 113.03) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4be73c-b602-4031-9a51-8fcc27e3f361")
 	)
 	(wire
 		(pts
@@ -2005,7 +2041,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 143.51 109.22 270)
+		(at 143.51 109.22 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2021,7 +2058,7 @@
 			)
 		)
 		(property "Value" "Evm3eSX50b102"
-			(at 153.67 111.76 90)
+			(at 153.924 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -3413,73 +3450,6 @@
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
 					(reference "R106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc3bef9f-34e5-4228-832d-70aeea2c3d2f")
-		(property "Reference" "#PWR0103"
-			(at 143.51 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c8f3010-d1c3-48f7-a0d4-277626d45550")
-		)
-		(instances
-			(project "ISPEL-CAD_v1"
-				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/c2e6e06f-39d1-4f26-9e70-a3bc9c97e1f0"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)

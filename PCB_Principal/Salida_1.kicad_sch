@@ -2368,6 +2368,12 @@
 		(uuid "ef37e921-2551-44df-80ef-204053cf1f4b")
 	)
 	(junction
+		(at 74.93 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f624c4ee-2f2e-4de9-91b0-d9430703aca2")
+	)
+	(junction
 		(at 243.84 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2999,6 +3005,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 99.06) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc47b9f-a367-42a9-9896-3865c7c6ade0")
+	)
+	(wire
+		(pts
 			(xy 217.17 82.55) (xy 217.17 15.24)
 		)
 		(stroke
@@ -3289,7 +3305,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 74.93 107.95)
+			(xy 74.93 90.17) (xy 74.93 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3316,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "b6b80d8d-3dcf-4f71-8596-fbba7ebe30ee")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f86bcc-bbc0-4c24-95e9-234d10c56d7f")
 	)
 	(wire
 		(pts
@@ -3626,6 +3652,16 @@
 			(type default)
 		)
 		(uuid "f77d69bd-40bd-4350-8d3f-4674ae69f35b")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77df84a-a942-487a-b444-5e580644f6dd")
 	)
 	(wire
 		(pts
@@ -5048,73 +5084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25c23bc8-4ceb-488f-8708-e07657ad4b68")
-		(property "Reference" "#PWR0204"
-			(at 81.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c56f5fd-37ff-4a40-9d68-0c96fe469fab")
-		)
-		(instances
-			(project "ISPEL-CAD_v1"
-				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594/38615ab2-d421-456a-8594-bd798ea0f00c"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2SD600")
 		(at 193.04 57.15 0)
 		(unit 1)
@@ -6167,7 +6136,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 81.28 92.71 270)
+		(at 81.28 92.71 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6175,7 +6145,7 @@
 		(dnp no)
 		(uuid "7af1c931-155b-4755-9ecb-962741c46be1")
 		(property "Reference" "RV201"
-			(at 86.36 95.25 90)
+			(at 76.2 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6153,7 @@
 			)
 		)
 		(property "Value" "Evm3eSX50b102"
-			(at 86.36 100.33 90)
+			(at 76.2 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)

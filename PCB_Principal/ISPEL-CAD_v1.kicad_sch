@@ -4336,6 +4336,10 @@
 		(uuid "326cd030-1345-400b-9d1a-1f2037f62261")
 	)
 	(no_connect
+		(at 110.49 153.67)
+		(uuid "3359e25b-5027-4c3b-aa51-6c5c119711d2")
+	)
+	(no_connect
 		(at 186.69 163.83)
 		(uuid "34945df1-a055-496d-8be5-5c31b61b532c")
 	)
@@ -5398,16 +5402,6 @@
 			(type default)
 		)
 		(uuid "561a8fe6-87d0-47f5-8c90-18905cce63c3")
-	)
-	(wire
-		(pts
-			(xy 101.6 153.67) (xy 110.49 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1673c8-305e-4a5a-9a06-81352109f867")
 	)
 	(wire
 		(pts
@@ -7272,28 +7266,6 @@
 			)
 		)
 	)
-	(global_label "V33"
-		(shape input)
-		(at 101.6 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "48da31f8-55f6-42ad-b7ec-326e345c1599")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.1072 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC1_C20"
 		(shape input)
 		(at 165.1 196.85 180)
@@ -7822,7 +7794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Libreria_ISPEL:PinSocket_2x10_P2.54mm_Vertical_impar-par"
 			(at 179.07 151.13 0)
 			(effects
 				(font
@@ -8752,7 +8724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical"
+		(property "Footprint" "Libreria_ISPEL:PinSocket_2x16_P2.54mm_Vertical_impar-par"
 			(at 115.57 207.01 0)
 			(effects
 				(font
@@ -10096,7 +10068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
+		(property "Footprint" "Libreria_ISPEL:PinSocket_2x08_P2.54mm_Vertical_impar-par"
 			(at 115.57 153.67 0)
 			(effects
 				(font

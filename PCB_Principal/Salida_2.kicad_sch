@@ -7500,7 +7500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Libreria_ISPEL:Fuseholder_1808_handsoldering"
 			(at 237.49 84.328 90)
 			(effects
 				(font

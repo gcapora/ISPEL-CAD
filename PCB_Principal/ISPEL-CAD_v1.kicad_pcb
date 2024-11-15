@@ -33789,7 +33789,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C203"
-			(at 0.1 2 360)
+			(at 0.1 2 0)
 			(layer "F.SilkS")
 			(uuid "628c100c-0845-4e27-9f57-7489d5c5e877")
 			(effects
@@ -33800,7 +33800,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "bd2c81c2-13dc-485e-9018-3f54c458d031")
 			(effects
@@ -33955,7 +33955,7 @@
 			(uuid "e710d713-9f36-4c3f-aabe-449ff27db203")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0714b9a0-1cfd-4aaf-b8d4-ed7217f243f3")
 			(effects
@@ -58124,6 +58124,14 @@
 		(uuid "157575af-a151-4ee9-bafb-2558ab697c30")
 	)
 	(segment
+		(start 64.95 69.5125)
+		(end 66.05 70.6125)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "1b1d6db6-6405-4d4f-b37e-7076aa930ca5")
+	)
+	(segment
 		(start 92.122816 67.535)
 		(end 94.185 67.535)
 		(width 0.3)
@@ -58140,20 +58148,20 @@
 		(uuid "253057b8-af54-424d-86cf-0232f2f5722c")
 	)
 	(segment
-		(start 68.05 71.6)
-		(end 67.475 71.6)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 75)
-		(uuid "2b57eaf5-80a0-49d7-aa17-16c6c71cacf6")
-	)
-	(segment
 		(start 92.76 77.7)
 		(end 94.25 77.7)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 75)
 		(uuid "3819757c-45e0-4cf1-ab95-19603c83b0d1")
+	)
+	(segment
+		(start 64.95 69.5125)
+		(end 64.95 65.125)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "3d77cc21-fcb3-4c2c-af07-bffbd8344263")
 	)
 	(segment
 		(start 87.432816 72.225)
@@ -58188,12 +58196,12 @@
 		(uuid "61b97c4c-85cb-496e-9e8f-f376eef510bc")
 	)
 	(segment
-		(start 67.475 71.6)
-		(end 65 69.125)
+		(start 66.05 70.6125)
+		(end 66.05 71.6)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 75)
-		(uuid "646684b1-842b-44fd-b295-dcdaeb271047")
+		(uuid "6cda70df-2d86-4faf-8e7c-6d2c1135958e")
 	)
 	(segment
 		(start 94.185 67.535)
@@ -58202,14 +58210,6 @@
 		(layer "F.Cu")
 		(net 75)
 		(uuid "802a1056-264c-4af3-94d6-f6462e71eccc")
-	)
-	(segment
-		(start 64.95 65.125)
-		(end 64.95 69.075)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 75)
-		(uuid "82ecf14e-3fd0-4903-aea3-7b06480a4960")
 	)
 	(segment
 		(start 94.5 72.29)
@@ -58228,20 +58228,20 @@
 		(uuid "8bb8ccc2-eb74-4e1a-a91f-8f5b0e5e3023")
 	)
 	(segment
+		(start 66.05 71.6)
+		(end 68.05 71.6)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "998edf4f-f2fc-4cdd-89a6-1fb6ff99b518")
+	)
+	(segment
 		(start 68.05 71.6)
 		(end 68.75 71.6)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 75)
 		(uuid "a2636ed7-804f-43f0-9e76-29d6586dcd51")
-	)
-	(segment
-		(start 64.95 69.075)
-		(end 65 69.125)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 75)
-		(uuid "bf54d1f2-8def-4272-802b-e84d6d422e16")
 	)
 	(segment
 		(start 73.35 76.25)
@@ -62075,8 +62075,6 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
-			(smoothing fillet)
-			(radius 1)
 		)
 		(polygon
 			(pts

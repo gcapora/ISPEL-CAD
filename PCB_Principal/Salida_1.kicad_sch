@@ -5122,7 +5122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf"
+		(property "Datasheet" "https://github.com/gcapora/ISPEL-CAD/blob/main/Info/Hojas%20de%20datos/Transistores/2SD882_NEC.pdf"
 			(at 193.04 57.15 0)
 			(effects
 				(font
@@ -6169,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://github.com/gcapora/ISPEL-CAD/blob/main/Info/Hojas%20de%20datos/Resistencias/EVM-3RSX50B54.PDF"
 			(at 81.28 92.71 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf"
+		(property "Datasheet" "https://github.com/gcapora/ISPEL-CAD/blob/main/Info/Hojas%20de%20datos/Transistores/2SB772_NEC.pdf"
 			(at 193.04 109.22 0)
 			(effects
 				(font

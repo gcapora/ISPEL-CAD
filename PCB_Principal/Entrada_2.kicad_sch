@@ -2550,7 +2550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://github.com/gcapora/ISPEL-CAD/blob/main/Info/Hojas%20de%20datos/Resistencias/EVM-3RSX50B54.PDF"
 			(at 143.51 109.22 0)
 			(effects
 				(font

@@ -3811,6 +3811,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -4166,13 +4287,19 @@
 		)
 	)
 	(junction
+		(at 46.99 202.565)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "073127da-374e-4725-9803-fce019f07bf9")
+	)
+	(junction
 		(at 120.65 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19915217-2add-403e-901c-eac6252983d9")
 	)
 	(junction
-		(at 43.18 173.99)
+		(at 43.18 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a507cc7-16f2-449f-bbec-597b72c0d52f")
@@ -4278,10 +4405,6 @@
 	(no_connect
 		(at 173.99 214.63)
 		(uuid "300243c6-03fb-4928-a35f-3abf271f7a1b")
-	)
-	(no_connect
-		(at 110.49 196.85)
-		(uuid "326cd030-1345-400b-9d1a-1f2037f62261")
 	)
 	(no_connect
 		(at 110.49 153.67)
@@ -4875,6 +4998,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 201.295) (xy 46.99 202.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c57bab3-7975-4aae-ae07-4875d1655fa4")
+	)
+	(wire
+		(pts
 			(xy 264.16 207.01) (xy 271.78 207.01)
 		)
 		(stroke
@@ -5012,6 +5145,16 @@
 			(type default)
 		)
 		(uuid "2400259c-3e0a-40b1-a08d-6c7dd6cad9fc")
+	)
+	(wire
+		(pts
+			(xy 41.91 202.565) (xy 46.99 202.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a71b2e-39f2-4b97-a8df-607444902872")
 	)
 	(wire
 		(pts
@@ -5245,6 +5388,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 202.565) (xy 48.26 202.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49aea91e-17a9-46f8-b6cd-10fa3d5654ea")
+	)
+	(wire
+		(pts
 			(xy 208.28 213.36) (xy 208.28 212.09)
 		)
 		(stroke
@@ -5345,7 +5498,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 152.4) (xy 46.99 152.4)
+			(xy 40.64 146.05) (xy 46.99 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5415,6 +5568,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 204.47) (xy 44.45 200.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691fda41-fcf1-4ae4-aab2-b06f9a94697c")
+	)
+	(wire
+		(pts
 			(xy 237.49 99.06) (xy 237.49 100.33)
 		)
 		(stroke
@@ -5465,7 +5628,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 166.37) (xy 43.18 166.37)
+			(xy 40.64 160.02) (xy 43.18 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5515,7 +5678,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 171.45) (xy 46.99 171.45)
+			(xy 40.64 165.1) (xy 46.99 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5605,7 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 168.91) (xy 46.99 168.91)
+			(xy 40.64 162.56) (xy 46.99 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5705,7 +5868,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 158.75) (xy 43.18 149.86)
+			(xy 43.18 152.4) (xy 43.18 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5845,6 +6008,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 196.85) (xy 110.49 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc320ac1-cdb5-4eb2-a46a-4c80d7e28c3c")
+	)
+	(wire
+		(pts
 			(xy 144.78 204.47) (xy 123.19 204.47)
 		)
 		(stroke
@@ -5912,6 +6085,16 @@
 			(type default)
 		)
 		(uuid "c518015c-7b1e-4390-afce-e3caccb47a77")
+	)
+	(wire
+		(pts
+			(xy 46.99 193.675) (xy 46.99 192.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fc6e8e-25f7-4e2c-a748-ea66634960f2")
 	)
 	(bus
 		(pts
@@ -6025,7 +6208,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 173.99) (xy 43.18 175.26)
+			(xy 43.18 167.64) (xy 43.18 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6085,7 +6268,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 166.37) (xy 43.18 173.99)
+			(xy 43.18 160.02) (xy 43.18 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6102,6 +6285,26 @@
 			(type default)
 		)
 		(uuid "e079f41b-d3a8-47be-b4b2-935f221d17b5")
+	)
+	(wire
+		(pts
+			(xy 46.99 192.405) (xy 48.895 192.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11bc4bb-7847-468f-99ac-d39eae66c70f")
+	)
+	(wire
+		(pts
+			(xy 44.45 200.025) (xy 41.91 200.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f84f61-ed2e-4fe6-9714-c65b399bfcdc")
 	)
 	(bus
 		(pts
@@ -6125,7 +6328,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 149.86) (xy 40.64 149.86)
+			(xy 43.18 143.51) (xy 40.64 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6245,7 +6448,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 173.99) (xy 43.18 173.99)
+			(xy 40.64 167.64) (xy 43.18 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6306,6 +6509,18 @@
 		(uuid 18b4434f-4236-47a9-b7d9-a1127a1aabe6)
 	)
 	(rectangle
+		(start 25.4 184.15)
+		(end 63.5 209.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1ca3f4f1-dd20-42f8-adf2-f16db889b0fc)
+	)
+	(rectangle
 		(start 25.4 215.9)
 		(end 63.5 266.7)
 		(stroke
@@ -6342,8 +6557,8 @@
 		(uuid 7f08bb31-2ac0-45dd-9a04-609997135859)
 	)
 	(rectangle
-		(start 25.4 139.7)
-		(end 63.5 203.2)
+		(start 25.4 133.35)
+		(end 63.5 177.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -6609,7 +6824,7 @@
 	)
 	(text "Fuentes reguladas\n"
 		(exclude_from_sim no)
-		(at 27.432 143.51 0)
+		(at 27.432 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6700,6 +6915,19 @@
 			(justify left)
 		)
 		(uuid "edc96811-5432-4cb8-b5fb-afb452fee673")
+	)
+	(text "Sensor de temperatura"
+		(exclude_from_sim no)
+		(at 28.575 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fa6110d4-2a26-44b3-bcdf-01ba8b847f6b")
 	)
 	(label "LED9"
 		(at 187.96 214.63 0)
@@ -7188,7 +7416,7 @@
 	)
 	(global_label "V5"
 		(shape input)
-		(at 46.99 152.4 0)
+		(at 46.99 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7198,7 +7426,7 @@
 		)
 		(uuid "2459de99-67c3-4fc4-bc52-224a641103d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2733 152.4 0)
+			(at 52.2733 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,6 +7450,28 @@
 		(uuid "2522a1c0-d09f-43c7-9723-53b732038415")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 257.9092 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_NTC"
+		(shape input)
+		(at 100.33 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dac5f8a-0133-4ba8-86ca-fee63cda885d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.1805 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,9 +7615,31 @@
 			)
 		)
 	)
+	(global_label "ADC_NTC"
+		(shape input)
+		(at 48.26 202.565 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "582859ec-097e-4537-8626-c389cbd9e6ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.4095 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VEE"
 		(shape input)
-		(at 46.99 171.45 0)
+		(at 46.99 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7377,7 +7649,7 @@
 		)
 		(uuid "62144a59-500c-42d8-bc8b-ec5066a60772")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.3618 171.45 0)
+			(at 53.3618 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7684,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 46.99 168.91 0)
+		(at 46.99 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7422,7 +7694,7 @@
 		)
 		(uuid "75a4c501-bdd9-4d0f-930d-a543ab6ffc87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6038 168.91 0)
+			(at 53.6038 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,6 +7863,28 @@
 			)
 		)
 	)
+	(global_label "V7"
+		(shape input)
+		(at 48.895 192.405 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e44c780d-c373-43c9-ab3a-4e267f808817")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1783 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC2_C10"
 		(shape input)
 		(at 101.6 191.77 180)
@@ -7755,7 +8049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "019c3747-263b-4494-a0fe-26d9f3fb3b6e")
-		(property "Reference" "J11"
+		(property "Reference" "J14"
 			(at 248.92 105.4099 0)
 			(effects
 				(font
@@ -7815,7 +8109,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J11")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7832,7 +8126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0941919a-3cd3-4a50-9a61-97dbbd7ca7f8")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 208.28 156.21 0)
 			(effects
 				(font
@@ -7883,7 +8177,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7899,7 +8193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f2a00d-fdcb-4919-9689-adb86021ef51")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 180.34 134.62 0)
 			(effects
 				(font
@@ -8005,7 +8299,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -8021,7 +8315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a0caab-6bee-4c7a-bc84-00ce175a7501")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 267.97 190.5 0)
 			(effects
 				(font
@@ -8072,7 +8366,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ea7382-2077-48b6-b60b-35c6d7f1dbf2")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 151.13 199.39 0)
 			(effects
 				(font
@@ -8337,7 +8631,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8354,7 +8648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26e722f9-5d11-4d28-a033-31b2270576d1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 208.28 219.71 0)
 			(effects
 				(font
@@ -8405,24 +8699,23 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 35.56 168.91 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 46.99 197.485 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "31127e95-fa2f-4625-967f-687ed306501c")
-		(property "Reference" "J17"
-			(at 33.02 168.9099 0)
+		(uuid "2877c90d-dfdc-4413-8781-46659ff3a32e")
+		(property "Reference" "R13"
+			(at 48.26 197.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,8 +8723,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VREG"
-			(at 33.02 171.4499 0)
+		(property "Value" "4K7"
+			(at 46.99 200.025 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,8 +8732,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 35.56 168.91 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 45.212 197.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +8742,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 168.91 0)
+			(at 46.99 197.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 197.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85d84215-1b8e-453e-ae1a-ed0311be8f55")
+		)
+		(pin "1"
+			(uuid "6f55149c-86f5-48e7-b71e-41e118c84a06")
+		)
+		(instances
+			(project "ISPEL-CAD_v1"
+				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 35.56 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31127e95-fa2f-4625-967f-687ed306501c")
+		(property "Reference" "J3"
+			(at 33.02 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VREG"
+			(at 33.02 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 35.56 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +8821,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 168.91 0)
+			(at 35.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8844,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J17")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8497,7 +8860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e4868f-a2ea-4612-925a-3228357a52f5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 86.36 227.33 0)
 			(effects
 				(font
@@ -8548,7 +8911,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8565,7 +8928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3296e665-e0b2-4cc8-a50f-20decd120d22")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 290.83 106.68 0)
 			(effects
 				(font
@@ -8616,7 +8979,77 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR035")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 36.83 200.025 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36013357-768e-4682-961c-566c6592a172")
+		(property "Reference" "J4"
+			(at 34.29 200.0249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEMP"
+			(at 34.29 202.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 36.83 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fb11200-f2ab-4220-8398-f7d07c88665d")
+		)
+		(pin "2"
+			(uuid "e29e6957-0399-4a8e-aea4-bfdc75243598")
+		)
+		(instances
+			(project "ISPEL-CAD_v1"
+				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8632,7 +9065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36ac5f6a-65be-4618-9d8a-02237565eb88")
-		(property "Reference" "J5"
+		(property "Reference" "J8"
 			(at 120.65 241.2999 90)
 			(effects
 				(font
@@ -8686,7 +9119,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8702,7 +9135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d84acec-6c5e-4289-8c31-d897719aa129")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 179.07 109.22 0)
 			(effects
 				(font
@@ -8754,7 +9187,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8770,7 +9203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4015a062-afab-4ceb-932b-45c84e5e88e4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 254 149.86 0)
 			(effects
 				(font
@@ -8821,7 +9254,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8838,7 +9271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e999d5-76cd-4db9-a4b6-dd880d33e00f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 237.49 118.11 0)
 			(effects
 				(font
@@ -8889,7 +9322,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8970,7 +9403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "514ad07c-5a6b-41f8-9719-ac15947056e2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 144.78 212.09 0)
 			(effects
 				(font
@@ -9021,7 +9454,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9037,7 +9470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52497063-d255-449d-9f4a-63fcb7b9d2a1")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 279.4 149.86 0)
 			(effects
 				(font
@@ -9088,7 +9521,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9104,7 +9537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e302040-f11d-4434-879b-bcae6e989d33")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 116.84 185.42 0)
 			(effects
 				(font
@@ -9240,7 +9673,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9256,7 +9689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e94cf63-6c3e-4992-b40d-7ce7de781d3c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -9307,7 +9740,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9324,7 +9757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7551b71a-4715-43de-a325-8a750a596b36")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 262.89 118.11 0)
 			(effects
 				(font
@@ -9375,7 +9808,74 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR032")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797a9fce-d4ea-4829-9a5c-d6eb2cb08045")
+		(property "Reference" "#PWR018"
+			(at 44.45 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db2c9522-5b27-469c-bdb4-fba6ae59ea82")
+		)
+		(instances
+			(project "ISPEL-CAD_v1"
+				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9391,7 +9891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ddbb00d-8b1e-46f8-9435-4fd73b373713")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 86.36 166.37 0)
 			(effects
 				(font
@@ -9442,7 +9942,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ecf7a98-445e-4fd0-a468-e4abb41ed2ed")
-		(property "Reference" "J8"
+		(property "Reference" "J11"
 			(at 180.34 180.34 0)
 			(effects
 				(font
@@ -9606,7 +10106,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J8")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9622,7 +10122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84c81869-c471-47c8-8872-d498333977ff")
-		(property "Reference" "J12"
+		(property "Reference" "J15"
 			(at 267.97 146.0499 0)
 			(effects
 				(font
@@ -9676,7 +10176,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J12")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -9757,7 +10257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89936ffc-babe-46d0-9b8e-c146439e3b07")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 262.89 106.68 0)
 			(effects
 				(font
@@ -9808,7 +10308,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9816,7 +10316,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 35.56 149.86 0)
+		(at 35.56 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9824,8 +10324,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c393654-7218-4270-9cb0-2c4ad79d48b9")
-		(property "Reference" "J16"
-			(at 33.02 149.8599 0)
+		(property "Reference" "J2"
+			(at 33.02 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +10334,7 @@
 			)
 		)
 		(property "Value" "V5"
-			(at 33.02 152.3999 0)
+			(at 33.02 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +10343,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 35.56 149.86 0)
+			(at 35.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +10352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 149.86 0)
+			(at 35.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +10361,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 149.86 0)
+			(at 35.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +10378,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J16")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9895,7 +10395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99e1370f-1487-41d8-93af-ac4636e33090")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 237.49 106.68 0)
 			(effects
 				(font
@@ -9946,7 +10446,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9962,7 +10462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c301c33-ce1c-4495-a56c-c93edf07419e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 151.13 227.33 0)
 			(effects
 				(font
@@ -10013,7 +10513,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10021,7 +10521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 175.26 0)
+		(at 43.18 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10029,8 +10529,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a21cc978-02f7-4b91-a7c4-2e23b75aac03")
-		(property "Reference" "#PWR037"
-			(at 43.18 181.61 0)
+		(property "Reference" "#PWR017"
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +10539,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 180.34 0)
+			(at 43.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +10548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 175.26 0)
+			(at 43.18 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,7 +10557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 175.26 0)
+			(at 43.18 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,7 +10566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 175.26 0)
+			(at 43.18 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,7 +10580,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR037")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10096,7 +10596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2cd491d-3abc-4049-b49d-8b92dfbbbbbd")
-		(property "Reference" "J13"
+		(property "Reference" "J16"
 			(at 274.32 105.4099 0)
 			(effects
 				(font
@@ -10156,7 +10656,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J13")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b812ccf0-186f-4d82-ba41-c5201af98de3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 120.65 124.46 0)
 			(effects
 				(font
@@ -10294,7 +10794,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10302,7 +10802,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 158.75 0)
+		(at 43.18 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10310,8 +10810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d1c44e-0287-49e3-9692-bd514ea0daed")
-		(property "Reference" "#PWR036"
-			(at 43.18 165.1 0)
+		(property "Reference" "#PWR016"
+			(at 43.18 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +10820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 163.83 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +10829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 158.75 0)
+			(at 43.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 158.75 0)
+			(at 43.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 158.75 0)
+			(at 43.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10861,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR036")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10377,7 +10877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bce98ff5-f9cd-4125-b6c7-e65277202e29")
-		(property "Reference" "J10"
+		(property "Reference" "J13"
 			(at 242.57 146.0499 0)
 			(effects
 				(font
@@ -10431,7 +10931,7 @@
 		(instances
 			(project ""
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J10")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -10447,7 +10947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be124d33-cba5-4248-8961-e89c5b961f01")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 116.84 139.7 0)
 			(effects
 				(font
@@ -10541,7 +11041,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10557,7 +11057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be86a066-24ff-4b18-ad8f-a24548c49a87")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 115.57 256.54 0)
 			(effects
 				(font
@@ -10608,7 +11108,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10624,7 +11124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbbc1b63-ed59-4204-b395-5b9328d6f94b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 151.13 214.63 0)
 			(effects
 				(font
@@ -10675,7 +11175,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10691,7 +11191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2360aa5-8654-46cf-a141-7b1645f8be0a")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 115.57 109.22 0)
 			(effects
 				(font
@@ -10743,7 +11243,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10759,7 +11259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ac6ec7-cfb6-433a-ad77-732ce4851695")
-		(property "Reference" "J9"
+		(property "Reference" "J12"
 			(at 184.15 241.2999 90)
 			(effects
 				(font
@@ -10813,7 +11313,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J9")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10893,7 +11393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6d6979-041e-45de-bafc-717f62d46c33")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 179.07 256.54 0)
 			(effects
 				(font
@@ -10944,7 +11444,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11024,7 +11524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b887de-4841-4de1-b876-2e54d9cba98f")
-		(property "Reference" "J15"
+		(property "Reference" "J18"
 			(at 302.26 102.8699 0)
 			(effects
 				(font
@@ -11078,7 +11578,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J15")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -11094,7 +11594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f803cbcc-6000-4b95-8ac9-967bbf6f145b")
-		(property "Reference" "J14"
+		(property "Reference" "J17"
 			(at 278.13 180.34 0)
 			(effects
 				(font
@@ -11200,7 +11700,7 @@
 		(instances
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(reference "J14")
+					(reference "J17")
 					(unit 1)
 				)
 			)

@@ -5148,6 +5148,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 186.69) (xy 341.63 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237ee619-406b-44fd-938f-b0477064101f")
+	)
+	(wire
+		(pts
 			(xy 302.26 189.23) (xy 309.88 189.23)
 		)
 		(stroke
@@ -5515,16 +5525,6 @@
 			(type default)
 		)
 		(uuid "56a1f27f-a1cb-4b07-87ca-ea888aeedf52")
-	)
-	(wire
-		(pts
-			(xy 328.93 186.69) (xy 322.58 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6613c0-1d46-4f82-b1d3-ea46238bb509")
 	)
 	(wire
 		(pts
@@ -6475,6 +6475,16 @@
 			(type default)
 		)
 		(uuid "f54a7ca1-9758-4249-90ad-6ef77f608788")
+	)
+	(wire
+		(pts
+			(xy 322.58 186.69) (xy 331.47 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55817a5-bb02-4ff3-81cc-7a2b95402d8f")
 	)
 	(bus
 		(pts
@@ -7546,7 +7556,7 @@
 	)
 	(global_label "V5"
 		(shape input)
-		(at 328.93 186.69 0)
+		(at 341.63 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7556,7 +7566,7 @@
 		)
 		(uuid "3e3ece4e-d88f-43c3-a0f7-984aaa5f088c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.2133 186.69 0)
+			(at 346.9133 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,6 +11718,75 @@
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 335.28 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9951c7c-c4e1-487e-85d7-6bdb1fb267d4")
+		(property "Reference" "R15"
+			(at 337.058 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 337.058 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 335.28 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 335.28 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28379040-471f-4879-8f72-b046ada52ebb")
+		)
+		(pin "1"
+			(uuid "3133343d-3818-4eac-b0f1-be336a22402b")
+		)
+		(instances
+			(project "ISPEL-CAD_v1"
+				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
+					(reference "R15")
 					(unit 1)
 				)
 			)

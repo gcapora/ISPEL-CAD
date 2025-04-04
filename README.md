@@ -14,5 +14,5 @@ En esta carpeta están los diseños de las placas del prototipo Beta 2024 de la 
 
 ## Comentarios
 
-- Los archivos de PCB_Principal fueron corregidos tras contruir el primer prototipo.
+- El diseño en PCB_Principal fue corregido tras construir el primer prototipo.
 - Los archivos de PCB_Frente son orientativos y deben ser corregidos.

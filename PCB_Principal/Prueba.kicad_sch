@@ -5,9 +5,9 @@
 	(uuid "ff27e1a3-43d3-4edc-8980-d2dfe0e49e0f")
 	(paper "A4")
 	(title_block
-		(title "Señal de prueba (ISPEL Beta 2024)")
-		(date "2024-10-29")
-		(rev "2 (GC)")
+		(title "Señal de prueba (ISPEL Beta)")
+		(date "2025-04-04")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "Comparator:TLV3501AID"

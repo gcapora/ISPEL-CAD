@@ -1621,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 0 1.82 90)
 			(layer "F.Fab")
 			(uuid "9c280d4a-75eb-4902-8c1b-9d648db1a6a0")
@@ -7050,7 +7050,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3pF"
+		(property "Value" "5pF"
 			(at -0.155 -1.8 0)
 			(layer "F.Fab")
 			(uuid "6208b169-7271-4c4b-b9c7-6228dc9ec898")
@@ -10490,7 +10490,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 0 1.82 90)
 			(layer "F.Fab")
 			(uuid "94f36bf1-5fae-45f8-a699-9981d863d847")
@@ -17982,7 +17982,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0.1"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "3e6f6e46-2725-4526-a498-3e3f2c0efda5")
@@ -20169,7 +20169,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3pF"
+		(property "Value" "5pF"
 			(at -0.1625 -1.95 0)
 			(layer "F.Fab")
 			(uuid "dbed0096-5e94-41d2-9d3d-ffae3da24ca7")
@@ -21380,7 +21380,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "9845ee25-bd27-41a9-a2d3-f6b8cd8b58b8")
@@ -22922,7 +22922,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "cee4364e-39a1-4250-8da0-d3d5dd14ebab")
@@ -29626,7 +29626,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "f2e37416-6cd0-4370-830b-015783c16141")
@@ -30802,7 +30802,7 @@
 				)
 			)
 		)
-		(property "Value" "TL071"
+		(property "Value" "CA3140"
 			(at 3.81 11.475 0)
 			(layer "F.Fab")
 			(uuid "dc231a4a-8bf7-432c-b1f0-18da9cd24094")
@@ -30826,7 +30826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/ca3140-ca3140a-datasheet?r=505296"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30839,7 +30839,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34228,7 +34228,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "e4f89457-a8ff-4f3a-be79-e589b53cbe3f")
@@ -37063,7 +37063,7 @@
 				)
 			)
 		)
-		(property "Value" "TL071"
+		(property "Value" "CA3140"
 			(at 3.81 11.475 0)
 			(layer "F.Fab")
 			(uuid "05338535-3366-4d53-8b7f-a0a867847edb")
@@ -37087,7 +37087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/ca3140-ca3140a-datasheet?r=505296"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37100,7 +37100,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40422,7 +40422,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 0 1.82 90)
 			(layer "F.Fab")
 			(uuid "7c68deca-9614-45b0-b5f7-500ee39b6233")
@@ -45419,7 +45419,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 0.125 1.575 0)
 			(layer "B.Fab")
 			(uuid "b4ba7548-7466-43dc-8562-9458e2881389")
@@ -46076,7 +46076,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 0.075 1.6 0)
 			(layer "B.Fab")
 			(uuid "0170c561-e642-434d-9008-779174526e2f")
@@ -48178,7 +48178,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "CAL"
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "aa7342ef-0858-4ace-aa29-1ac324cf9e2e")
@@ -48616,7 +48616,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "CAL"
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "5b3d759b-161d-4920-b096-12c192a62546")
@@ -49711,7 +49711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "CAL"
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "7cb4456c-8c58-490f-9ee6-31a79207cd67")
@@ -51287,7 +51287,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 0 -1.85 0)
 			(layer "B.Fab")
 			(uuid "f75ea404-16d6-4ff4-8752-6bbd908b373f")
@@ -51944,7 +51944,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "CAL"
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "19cfe4f8-0a3d-4cb3-863f-79a6404aaf43")

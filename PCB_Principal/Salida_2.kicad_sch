@@ -5,9 +5,9 @@
 	(uuid "80a6650c-c895-4a2a-a69d-0a89c31c0e3f")
 	(paper "A4")
 	(title_block
-		(title "Salida 2 (ISPEL Beta 2024)")
-		(date "2024-10-29")
-		(rev "2 (GC)")
+		(title "Salida 2 (ISPEL Beta)")
+		(date "2025-04-04")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM318H"
@@ -5079,7 +5079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "CAL"
 			(at 204.47 89.154 90)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "CAL"
 			(at 204.47 78.74 90)
 			(effects
 				(font

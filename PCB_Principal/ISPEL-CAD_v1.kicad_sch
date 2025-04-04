@@ -5,9 +5,9 @@
 	(uuid "f66f0001-c0b9-4d2c-a26f-f2bac9dfd594")
 	(paper "A3")
 	(title_block
-		(title "Placa principal ISPEL Beta 2024")
-		(date "2024-10-30")
-		(rev "2 (GC)")
+		(title "Placa principal ISPEL Beta")
+		(date "2025-04-04")
+		(rev "1")
 		(company "Undav")
 	)
 	(lib_symbols
@@ -6560,7 +6560,7 @@
 	)
 	(rectangle
 		(start 25.4 184.15)
-		(end 99.06 209.55)
+		(end 101.6 209.55)
 		(stroke
 			(width 0)
 			(type default)
@@ -6572,7 +6572,7 @@
 	)
 	(rectangle
 		(start 25.4 215.9)
-		(end 99.06 266.7)
+		(end 101.6 266.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -6584,7 +6584,7 @@
 	)
 	(rectangle
 		(start 25.4 25.4)
-		(end 317.5 76.2)
+		(end 355.6 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -6608,7 +6608,7 @@
 	)
 	(rectangle
 		(start 25.4 133.35)
-		(end 99.06 177.8)
+		(end 101.6 177.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -6632,7 +6632,7 @@
 	)
 	(rectangle
 		(start 25.4 88.9)
-		(end 99.06 127)
+		(end 101.6 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -11270,7 +11270,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0.1"
 			(at 143.51 163.83 90)
 			(effects
 				(font
@@ -11741,7 +11741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 337.058 186.69 90)
 			(effects
 				(font
@@ -12340,44 +12340,6 @@
 			(project "ISPEL-CAD_v1"
 				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 266.7 44.45)
-		(size 22.86 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "db241652-64ea-4e9d-ab4e-5bd837447242")
-		(property "Sheetname" "Placa Nucleo-F429ZI"
-			(at 266.7 43.7384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "nucleo-144.kicad_sch"
-			(at 266.7 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ISPEL-CAD_v1"
-				(path "/f66f0001-c0b9-4d2c-a26f-f2bac9dfd594"
-					(page "8")
 				)
 			)
 		)

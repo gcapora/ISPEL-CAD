@@ -5,9 +5,9 @@
 	(uuid "e4491202-1dd8-46c6-ac13-858c896036a9")
 	(paper "A4")
 	(title_block
-		(title "Fuente (ISPEL Beta 2024)")
-		(date "2024-10-29")
-		(rev "2 (GC)")
+		(title "Fuente (ISPEL Beta)")
+		(date "2025-04-04")
+		(rev "1")
 		(company "UNDAV")
 	)
 	(lib_symbols
@@ -3340,7 +3340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 242.57 147.828 90)
 			(effects
 				(font
@@ -3409,7 +3409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 222.25 147.828 90)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 148.59 57.1562 0)
 			(effects
 				(font
@@ -4225,7 +4225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 219.71 50.8062 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 148.59 96.5262 0)
 			(effects
 				(font
@@ -5245,7 +5245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 214.63 147.828 90)
 			(effects
 				(font
@@ -5387,7 +5387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "1uF"
 			(at 153.67 151.1362 0)
 			(effects
 				(font
@@ -5525,7 +5525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 193.04 147.828 90)
 			(effects
 				(font
@@ -5808,7 +5808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0.1"
 			(at 186.69 147.828 90)
 			(effects
 				(font

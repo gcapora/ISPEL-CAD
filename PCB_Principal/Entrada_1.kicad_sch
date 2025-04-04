@@ -5,8 +5,9 @@
 	(uuid "c8e260db-080a-4908-b8ba-349719485ef4")
 	(paper "A4")
 	(title_block
-		(title "Entrada 1 (ISPEL Beta 2024)")
-		(rev "2 (GC)")
+		(title "Entrada 1 (ISPEL Beta)")
+		(date "2025-04-04")
+		(rev "1")
 		(company "UNDAV")
 	)
 	(lib_symbols
@@ -3048,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Value" "TL071"
+		(property "Value" "CA3140"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -3065,7 +3066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/ca3140-ca3140a-datasheet?r=505296"
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -3074,7 +3075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -3541,7 +3542,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3pF"
+		(property "Value" "5pF"
 			(at 91.4463 81.28 90)
 			(effects
 				(font

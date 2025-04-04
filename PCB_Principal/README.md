@@ -1,5 +1,5 @@
 Aquí van los archivos del proyecto PLACA PRINCIPAL que incluye:
-- Fuente
+- Fuente y tensión de referencia
 - Amplificadores
 - Búferes de entrada
-- Tensión de referencia
+- Señal de prueba

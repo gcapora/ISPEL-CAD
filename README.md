@@ -12,6 +12,10 @@ En esta carpeta están los diseños de las placas del prototipo Beta 2024 de la 
 - PCB_Frente: PCB de botones y leds del frente del gabinete.
 - PCB_Principal: PCB principal, sobre la cual va montada la placa Nuleao-144 de STM.
 
+## Versiones
+
+- Primera versión Beta corresponde al diseño presentado como parte del trabajo final de la Carrera de Especialización en Sistemas Embebidos de la FIUBA: [Versión 1 Beta](https://github.com/gcapora/ISPEL-CAD/releases/tag/v1-beta)
+
 ## Comentarios
 
 - El diseño en PCB_Principal fue corregido tras construir el primer prototipo.
